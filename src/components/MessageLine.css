@@ -1,0 +1,36 @@
+.message {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px 10px 20px;
+    align-items: center;
+    border-bottom: 1px solid #dadee7;
+    height: 60px;
+}
+
+.messageContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    flex: 1;
+    font-size: 12px;
+}
+
+.messageContent span img {
+    margin-right: 10px;
+}
+
+.messageAvatar {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.sender {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.time {
+    color: #8492af;
+}
+  

@@ -1,0 +1,28 @@
+.LeftMenu {
+    background-color: #0e1a35;
+    height: 100%;
+}
+
+.merkLogo {
+    padding: 40px 15px 40px 15px;
+}
+
+.itemMenu {
+    height: 35px;
+    color: #ffffff;
+    padding: 23.5px 0 12.5px 20px;
+    border-left: 7px solid transparent;
+}
+
+.itemMenu:hover {
+    color: #ffffff;
+    padding-left: 20px; 
+    border-left: 7px solid #5584ff;
+    background-color: #122143;
+    cursor: pointer;
+}
+
+.textLink {
+    font-size: 23px;
+    margin-left: 7px;
+}

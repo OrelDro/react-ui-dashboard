@@ -1,0 +1,43 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px 10px 20px;
+    align-items: center;
+    border-bottom: 1px solid #dadee7;
+    height: 60px;
+}
+
+.circle {
+    background-color: #5384ff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.circle > span {
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 25px;
+    color: white;
+}
+
+.taskContent {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.taskTitle {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.optImg {
+    margin: 7px 5px 0 0;
+}
+
+  
+  
+
+   

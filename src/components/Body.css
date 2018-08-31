@@ -1,0 +1,17 @@
+.mainBody {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f7fa;
+}
+
+.mainBody h1 {
+    font-size: 30px;
+}
+
+.bottomPanels {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+

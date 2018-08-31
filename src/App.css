@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-LeftMenu {
+  flex: 1;
+}
+
+.App-Page {
+  height: 100vh;
+  flex: 4.2 1;
+  background-color: #f6f7fa;
+}
+
+.App-header {
+  background-color: #ffffff;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}

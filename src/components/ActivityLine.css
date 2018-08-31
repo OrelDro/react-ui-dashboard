@@ -1,0 +1,52 @@
+.activity {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px 10px 20px;
+    align-items: center;
+    height: 60px;
+}
+
+.activityAvatar {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.activityContent {
+    margin-left: 20px;
+    flex: 1;
+    font-size: 12px;
+}
+
+.activitySender {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.activityParagraph {
+    color: #8492af;
+    margin-right: 5px;
+}
+
+.activityAct {
+    font-weight: bold;
+}
+
+.activityTime {
+    color: #8492af;
+}
+
+.vl {
+    width: 1px;
+    background-color: #8492af;
+    height: 40px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    top: 38px;
+    left: -20px;   
+}
+
+.activity:last-child .vl {
+    display: none;
+}

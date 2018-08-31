@@ -1,0 +1,39 @@
+.panelMain {
+    flex: 1;
+    border: 1px solid #dadee7;
+    margin: 0 20px 10px 0;
+    background-color: #ffffff;
+}
+
+.panelHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #dadee7;
+    padding: 0 20px 0 20px;
+}
+
+.panelHeader h1 {
+    font-size: 24px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.circle > span {
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 25px;
+    color: white;
+}
+
+.backspace {
+    flex-grow: 1;
+}
+
+  

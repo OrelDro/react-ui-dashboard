@@ -1,0 +1,39 @@
+.mainHeader {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.mainHeader div {
+    padding-left: 30px;
+}
+
+.mainHeader div input[type="button"] {
+    background-color: #5584ff;
+    border-radius: 25px;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.toggleMenu {
+    transform: rotateY(180deg);
+}
+
+.closeLeftMenu {
+    display: none;
+}
+
+.polygon {
+    padding-left: inherit !important;
+    margin-right: 20px;
+}
+
+.backspace {
+    flex-grow: 1;
+}
